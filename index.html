@@ -3,25 +3,32 @@
     <head>
         <title>Sikander Mukhtar</title>
         <link rel="shortcut icon" type="image/jpeg" href="b2.jpg">
-        <link rel="stylesheet" href="style.css">
+        <link href="./output.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
     </head>
-    <body>
-        <header>
-            <nav id="navBar">
-                <h1>Sikander Mukhtar</h1>
-                <h1>Home</h1>
-                <h1>Portfolio</h1>
-                <h1>About</h1>
-            </div>
-        </header>
-        <main>
-            <p>I am student of Bacholers of Sciences in Computer Science (BSCS)</p>
-        </main>
-        <footer>
-            <h1>Contact Me</h1>
-            <form>
+<body>
+   <nav class="flex justify-between items-center px-6 py-4 bg-white">
 
-            </form>
-        </footer>
-    </body>
+       <a href="#" class="flex gap-2 items-center">
+           <img src="b2.jpg" alt="Logo"
+           class="object-cover max-w-12 max-h-12">
+           <span class="text-lg font-medium font-display">Sikander Mukhtar</span>
+       </a>
+
+
+       <div id="nav-menu" class="hidden lg:flex gap-12">
+           <a href="#" class="font-medium font-display hover:text-primary">Home</a>
+           <a href="#" class="font-medium font-display hover:text-primary">Projects</a>
+           <a href="#" class="font-medium font-display hover:text-primary">About</a>
+       </div>
+
+       <button class="hidden lg:flex gap-2 items-center border border-gray-400 px-6 py-2 rounded-lg
+             hover:border-gray-600">
+            <img src="Batman-Logo.png" class="max-w-12 max-h-12 object-cover">
+            Contact Me
+           <i class="fa-solid fa-arrow-right"></i>
+       </button>
+
+   </nav>
+</body>
 </html>
